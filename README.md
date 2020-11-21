@@ -2,7 +2,8 @@
 ## Overview of the Analysis
 ## Purpose of the Analysis
 ## Results of the Analysis
-Native Random Oversampling
+
+- ### Native Random Oversampling
 <img src="Resources/oversampling1.png">
 
 - ### SMOTE Oversampling Results
