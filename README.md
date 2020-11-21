@@ -3,6 +3,7 @@
 ## Purpose of the Analysis
 ## Results of the Analysis
 - ### Native Random Oversampling
+<img src="Resources/.png">
 - ### SMOTE Oversampling Results
 - ### ClusterCentroids Undersampling Results
 - ### SMOTEENN Combination Sampling Results
