@@ -8,7 +8,7 @@ Native Random Oversampling
 - ### SMOTE Oversampling Results
 <img src="Resources/over_results2.png">
 
-- ClusterCentroids Undersampling Results
+- ### ClusterCentroids Undersampling Results
 <img src="Resources/3.png">
 
 - ### SMOTEENN Combination Sampling Results
