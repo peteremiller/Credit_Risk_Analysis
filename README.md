@@ -7,6 +7,7 @@
 - ### SMOTE Oversampling Results
 <img src="Resources/.png">
 - ### ClusterCentroids Undersampling Results
+<img src="Resources/count.png">
 - ### SMOTEENN Combination Sampling Results
 - ### Balanced Random Forest Classifier
 - ### Easy Ensemble AdaBoost Classifier
