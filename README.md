@@ -5,7 +5,7 @@
 Native Random Oversampling
 <img src="Resources/oversampling1.png">
 
-- SMOTE Oversampling Results
+- ### SMOTE Oversampling Results
 <img src="Resources/over_results2.png">
 
 - ClusterCentroids Undersampling Results
