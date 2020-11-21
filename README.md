@@ -4,9 +4,9 @@
 ## Results of the Analysis
 - ### Native Random Oversampling
 <img src="Resources/1.png">
-- ### SMOTE Oversampling Results
+- SMOTE Oversampling Results
 <img src="Resources/2.png">
-- ### ClusterCentroids Undersampling Results
+- ClusterCentroids Undersampling Results
 <img src="Resources/3.png">
 - ### SMOTEENN Combination Sampling Results
 <img src="Resources/4.png">
