@@ -5,6 +5,7 @@
 - ### Native Random Oversampling
 <img src="Resources/.png">
 - ### SMOTE Oversampling Results
+<img src="Resources/.png">
 - ### ClusterCentroids Undersampling Results
 - ### SMOTEENN Combination Sampling Results
 - ### Balanced Random Forest Classifier
