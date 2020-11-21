@@ -3,8 +3,8 @@
 ## Purpose of the Analysis
 ## Results of the Analysis
 ## Summary of the Analysis
-- 
-- 
+- ### Native Random Oversampling
+- ### SMOTE Oversampling Results
 - 
 - 
 - 
