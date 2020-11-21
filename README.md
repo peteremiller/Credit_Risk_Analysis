@@ -5,8 +5,8 @@
 ## Summary of the Analysis
 - ### Native Random Oversampling
 - ### SMOTE Oversampling Results
-- 
-- 
-- 
-- 
+- ### ClusterCentroids Undersampling Results
+- ### SMOTEENN Combination Sampling Results
+- ### Balanced Random Forest Classifier
+- ### Easy Ensemble AdaBoost Classifier
 ## Reccomendation
