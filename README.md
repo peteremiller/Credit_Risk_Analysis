@@ -9,6 +9,7 @@
 - ### ClusterCentroids Undersampling Results
 <img src="Resources/count.png">
 - ### SMOTEENN Combination Sampling Results
+<img src="Resources/count.png">
 - ### Balanced Random Forest Classifier
 - ### Easy Ensemble AdaBoost Classifier
 ## Summary of the Analysis
