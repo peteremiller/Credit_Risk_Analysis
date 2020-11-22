@@ -10,7 +10,7 @@
 <img src="Resources/over_results2.png">
 
 - ### ClusterCentroids Undersampling Results
-<img src="Resources/3.png">
+<img src="Resources/under_results3.png">
 
 - ### SMOTEENN Combination Sampling Results
 <img src="Resources/4.png">
