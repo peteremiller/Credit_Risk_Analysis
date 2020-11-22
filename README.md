@@ -48,4 +48,4 @@ In the first four models I undersampled, oversampled and did a combination of bo
 
 
 ### Recommendation
-All models show poor results, except the Easy Ensemble AdaBoost Classifier which shows promise. Of the six models the Easy Ensemble provided the best predictive analysis of the dataset with metrics at 93% or above. However, the metrics are not indicative of a reliable statistical tool returning at least 99.5% and above predictive reliability. For that reason, I would strongly recommend to improve the LogisticRegression model by using a solver not found in the six models used in this analysis. 
+All models show poor results, except the Easy Ensemble AdaBoost Classifier which shows promise. Of the six models the Easy Ensemble provided the best predictive analysis of the dataset with metrics at 93% or above. However, the metrics are not indicative of a reliable statistical tool returning at least 99.5% predictive reliability. For that reason, I would strongly recommend improving the LogisticRegression model by finding an additional solver not used in this analysis to reliably predict credit risk. 
