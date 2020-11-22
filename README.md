@@ -14,7 +14,7 @@ The purpose of this analysis is to determine if any of the six models provide a 
 
 
 <img src="Resources/oversampling1.png">
-
+The first model 
 - ### SMOTE Oversampling Results
 <img src="Resources/over_results2.png">
 
@@ -31,6 +31,6 @@ The purpose of this analysis is to determine if any of the six models provide a 
 <img src="Resources/easy_results6.png">
 
 ## Summary of the Analysis
-In the first four models we undersampled, oversampled and did a combination of both to try and determine which model is best at predicting which loans are the highest risk. The next two models we resampled the data using ensemble classifiers to try and predict which which loans are high or low risk. In our first four models our accuracy score is not as high as the ensemble classifiers and the recall in the oversampling/undersampling/mixed models is low as well. Typically in your models you want a good balance of recall and precision which is why I recommend the ensemble classifiers over the first four models. It appears that the Easy Ensemble had the best balance of all the models because of it's higher accuracy score and balance of precision and recall scores.
+In the first four models I undersampled, oversampled and did a combination of both to determine which model is best at predicting which loans are the highest risk. The next two models resampled the data using ensemble classifiers to try and predict which which loans are high or low risk. In the first four models the accuracy score is not as high as the ensemble classifiers and the recall in the oversampling/undersampling/mixed models is low as well. It appears that the Easy Ensemble had the best balance of all the models because of it's higher accuracy score and balance of precision and recall scores.
 ### Recommendation
-All models show quite poor predicting results (all of them are lower than the 75th percentile). According to that, I would strongly recommend to improve the LogisticRegression model by using a solver not found in the six models used in this analysis. 
+All models show poor results, except the Easy Ensemble AdaBoost Classifier which shows promise. Of the six models the Easy Ensemble provided the best predictive analysis of the dataset with metrics at 93% or above. However, the metrics are not indicative of a reliable statistical tool returning at least 99.5% and above predictive reliability. For that reason, I would strongly recommend to improve the LogisticRegression model by using a solver not found in the six models used in this analysis. 
