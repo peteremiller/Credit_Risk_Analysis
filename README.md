@@ -16,7 +16,7 @@
 <img src="Resources/combo_results4.png">
 
 - ### Balanced Random Forest Classifier
-<img src="Resources/5.png">
+<img src="Resources/forest_results5.png">
 
 - ### Easy Ensemble AdaBoost Classifier
 <img src="Resources/6.png">
