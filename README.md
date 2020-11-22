@@ -47,5 +47,5 @@ The sixth model above reported an accuracy test of 93%, a precision score of 99%
 In the first four models I undersampled, oversampled and did a combination of both to determine which model is best at predicting which loans are the highest risk. The next two models resampled the data using ensemble classifiers to try and predict which which loans are high or low risk. In the first four models the accuracy score is not as high as the ensemble classifiers and the recall in the oversampling/undersampling/mixed models is low as well. It appears that the Easy Ensemble had the best balance of all the models because of it's higher accuracy score and balance of precision and recall scores.
 
 
-### Recommendation
+## Recommendation
 All models show poor results, except the Easy Ensemble AdaBoost Classifier which shows promise. Of the six models the Easy Ensemble provided the best predictive analysis of the dataset with metrics at 93% or above. However, the metrics are not indicative of a reliable statistical tool returning at least 99.5% predictive reliability. For that reason, I would strongly recommend improving the LogisticRegression model by finding an additional solver not used in this analysis to reliably predict credit risk. 
