@@ -19,20 +19,32 @@ The first model above reported an accuracy test of 65%, a precision score of 99%
 
 - ### SMOTE Oversampling Results
 <img src="Resources/over_results2.png">
+The second model above reported an accuracy test of 66%, a precision score of 99%, and a recall score of 69%. The accuaracy and recall scores are not strong enough to be reliable metrics for predicting credit risk.
+
 
 - ### ClusterCentroids Undersampling Results
 <img src="Resources/under_results3.png">
+The third model above reported an accuracy test of 66%, a precision score of 99%, and a recall score of 67%. The accuaracy and recall scores are not strong enough to be reliable metrics for predicting credit risk.
+
 
 - ### SMOTEENN Combination Sampling Results
 <img src="Resources/combo_results4.png">
+The fourth model above reported an accuracy test of 65%, a precision score of 99%, and a recall score of 72%. The accuaracy and recall scores are not strong enough to be reliable metrics for predicting credit risk.
+
 
 - ### Balanced Random Forest Classifier
 <img src="Resources/forest_results5.png">
+The fifth model above reported an accuracy test of 77%, a precision score of 99%, and a recall score of 87%. The accuaracy and recall scores are higher than the previous four, but are not strong enough to be reliable metrics for predicting credit risk.
+
 
 - ### Easy Ensemble AdaBoost Classifier
 <img src="Resources/easy_results6.png">
+The sixth model above reported an accuracy test of 93%, a precision score of 99%, and a recall score of 94%. The accuaracy and recall scores are much beter than the previous five and are approaching reliable predictive strength, but are not strong enough to be reliable metrics for predicting credit risk.
+
 
 ## Summary of the Analysis
 In the first four models I undersampled, oversampled and did a combination of both to determine which model is best at predicting which loans are the highest risk. The next two models resampled the data using ensemble classifiers to try and predict which which loans are high or low risk. In the first four models the accuracy score is not as high as the ensemble classifiers and the recall in the oversampling/undersampling/mixed models is low as well. It appears that the Easy Ensemble had the best balance of all the models because of it's higher accuracy score and balance of precision and recall scores.
+
+
 ### Recommendation
 All models show poor results, except the Easy Ensemble AdaBoost Classifier which shows promise. Of the six models the Easy Ensemble provided the best predictive analysis of the dataset with metrics at 93% or above. However, the metrics are not indicative of a reliable statistical tool returning at least 99.5% and above predictive reliability. For that reason, I would strongly recommend to improve the LogisticRegression model by using a solver not found in the six models used in this analysis. 
