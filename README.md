@@ -14,7 +14,9 @@ The purpose of this analysis is to determine if any of the six models provide a 
 
 
 <img src="Resources/oversampling1.png">
-The first model 
+The first model above reported an accuracy test of 65%, a precision score of 99%, and a recall score of 58%. The accuaracy and recall scores are not strong enough to be reliable metrics for predicting credit risk.
+
+
 - ### SMOTE Oversampling Results
 <img src="Resources/over_results2.png">
 
