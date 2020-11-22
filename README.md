@@ -19,7 +19,7 @@
 <img src="Resources/forest_results5.png">
 
 - ### Easy Ensemble AdaBoost Classifier
-<img src="Resources/easy6.png">
+<img src="Resources/easy_results6.png">
 
 ## Summary of the Analysis
 ### Reccomendation
