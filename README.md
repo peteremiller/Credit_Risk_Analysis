@@ -13,7 +13,7 @@
 <img src="Resources/under_results3.png">
 
 - ### SMOTEENN Combination Sampling Results
-<img src="Resources/4.png">
+<img src="Resources/combo_results4.png">
 
 - ### Balanced Random Forest Classifier
 <img src="Resources/5.png">
